@@ -11,6 +11,8 @@ def login():
    while account!=gmail:
       print("invalid account🤨")
       account=str(input("enter your gmail here: "))
+      
+   passwords=str(input("enter your password here: "))  
    while account==gmail and passwords!=password:
       print("invalid password😢")
       passwords=str(input("enter your password here: "))
