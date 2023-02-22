@@ -7,14 +7,16 @@ days=int(input("enter the number of days: "))
 total=0
 
 interest=amount*(10/100)
-
+#here the interest will specify how mush has to be added to the initial loan as the interest depending on the interest rule
 if days <=30:
     total=amount+interest
+    #here the "total" which means total amount that will be payed back with the interest while days are less than or equal to 30  
     print(f" client name: {name}")
     print(f"the loan is: {amount}")
     print(f"days spent: {days}")
     print(f"this the total ammount to pay: {total}")
 elif days >30:
+    #here its when the days are over 30 days which means that the interest will be changing according to the extradays spent by the loan taker 
    extradays=days-30
    fine=(1/100)*amount
    increasing=fine*extradays
