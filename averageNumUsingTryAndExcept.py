@@ -14,4 +14,4 @@ while True:
       except ValueError:
          print("invalid input")
          continue
-print(f"the average is equal to {average}")
+print(f"the average is equal to {average}, the total = {total}, Count = {count}")
