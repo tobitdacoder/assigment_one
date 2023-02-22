@@ -21,10 +21,10 @@ elif days >30:
    fine=(1/100)*amount
    increasing=fine*extradays
    total=amount+interest+increasing
-   print(name)
-   print(amount)
-   print(days)
-   print(total)
+   print(f" client name: {name}")
+   print(f"the loan is: {amount}")
+   print(f"days spent: {days}")
+   print(f"this the total ammount to pay: {total}")
 
 
    
