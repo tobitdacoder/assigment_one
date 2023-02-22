@@ -11,9 +11,9 @@ interest=amount*(10/100)
 if days <=30:
     total=amount+interest
     print(f" client name: {name}")
-    print(amount)
-    print(days)
-    print(total)
+    print(f"the loan is: {amount}")
+    print(f"days spent: {days}")
+    print(f"this the total ammount to pay: {total}")
 elif days >30:
    extradays=days-30
    fine=(1/100)*amount
