@@ -6,8 +6,11 @@ while True:
    number=input("enter a number: ")
    if number=="done":
       break
+      #this break here is breaking the loop while number is equal to "done"  
    else:
-      try:
+      #this else will be applied when the number is different to "done"
+      
+      try: #this is to handle the problen if we have an invalid input
          total+=float(number)
          count+=1
          average=total/float(count)
