@@ -32,3 +32,11 @@ print(finalist)
 #contains only the strings with length greater than 5 . This code can be made more rich and complex
 
    
+# Prompt the user to enter a string
+string = input("Enter a string: ")
+
+# Reverse the string using slicing
+reversed_string = string[::-1]
+
+# Print the reversed string
+print("The reversed string is:", reversed_string)
