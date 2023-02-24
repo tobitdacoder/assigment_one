@@ -41,16 +41,3 @@ reversed_string = string[::-1]
 print("The reversed string is:", reversed_string)
 
 ######################################################################################
-
-origin=[12,54,23,5,1,4,44,87,11,22,85,44,28,77,3,9,0,88,54,3,0,4]
-
-
-list=[]
-
-for i in range(6):
-   num=int(input("enter a number: "))
-   if num in origin:
-      list.append(num)
-print(list)
-
-#this is a Python program that takes a list of integers as input and returns a new list that contains only the unique elements of the original list.
